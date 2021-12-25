@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang ='en'>
+    <body style="background-color:grey;">
+        <head>
+            <meta charset="UTF-8">
+            <meta content="text/html; charset=ISO-8859-1"
+            http-equiv="content-type">
+            <title>Flask Application</title>
+            <link type='text/css' rel= "stylesheet" href = "{{url_for('static', filename = 'index.css')}}">
+        </head> 
+            <h1>Results for Individual Polls for Delta State</h1>
+            <form method = "POST" action = ""> 
+                <label> Enter Unique Poll ID </label> 
+                <input type=”text” name="upi">  
+            
+                <button type=”submit”> Submit </button> 
+            </form> 
+            
+    </body>
+</html>
